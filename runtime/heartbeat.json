@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "department": "BABU_RAO",
+  "timestamp_utc": "2026-08-29T00:33:19.882737+00:00",
+  "governance_state": "FOUNDATION_GOVERNED",
+  "objective_alignment": "CHECKED",
+  "department_state": "READY_FOR_DIAGNOSIS",
+  "runtime_health": "DEGRADED",
+  "production_provider_ready": false,
+  "credential_presence": {
+    "aws_access_key_configured": false,
+    "aws_secret_key_configured": false,
+    "aws_session_token_configured": false
+  },
+  "last_successful_production": null,
+  "blockers": [
+    "AWS_BEDROCK_CREDENTIALS_UNAVAILABLE"
+  ],
+  "next_autonomous_action": "WAIT_FOR_REQUIRED_EXTERNAL_DEPENDENCY_WHILE_CONTINUING_HEALTH_REPORTING",
+  "victor_communication_status": "NOT_IMPLEMENTED_STEP_3",
+  "evidence": {
+    "git_head": "76670060b8f761358183e49c3dd77f196d626f4a",
+    "heartbeat_file": "runtime/heartbeat.json"
+  }
+}
